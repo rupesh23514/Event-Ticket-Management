@@ -1,8 +1,9 @@
 // src/lib/axiosConfig.js
 import axios from 'axios';
 
-// Set the base URL for all API requests
-axios.defaults.baseURL = 'http://localhost:5002/api';
+// Set the base URL for all API requests - use environment variables or fallback to localhost
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5002/api';
+axios.defaults.baseURL = API_URL;
 
 // Enable cookies to be sent with cross-origin requests
 axios.defaults.withCredentials = true;
