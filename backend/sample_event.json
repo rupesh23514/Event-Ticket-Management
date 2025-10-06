@@ -1,0 +1,44 @@
+{
+  "title": "Tech Conference 2025",
+  "description": "Join us for a full day of tech talks, networking, and innovation showcases. Learn from industry experts and connect with like-minded professionals.",
+  "location": {
+    "address": "123 Tech Avenue",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "zipCode": "94105",
+    "coordinates": {
+      "lat": 37.7749,
+      "lng": -122.4194
+    }
+  },
+  "eventDate": "2025-12-15T09:00:00.000Z",
+  "endDate": "2025-12-15T18:00:00.000Z",
+  "category": "Technology",
+  "tags": ["tech", "conference", "networking"],
+  "venueType": "indoor",
+  "status": "published",
+  "posterImage": {
+    "url": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "publicId": "sample_image"
+  },
+  "ticketTiers": [
+    {
+      "name": "General Admission",
+      "price": 99.99,
+      "description": "Regular entry ticket",
+      "quantity": 200
+    },
+    {
+      "name": "VIP",
+      "price": 199.99,
+      "description": "VIP access with special amenities",
+      "quantity": 50
+    }
+  ],
+  "seatingLayout": {
+    "rows": 10,
+    "columns": 15,
+    "reserved": []
+  }
+}

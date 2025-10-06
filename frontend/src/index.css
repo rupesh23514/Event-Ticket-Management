@@ -1,0 +1,85 @@
+@import './styles/dashboard.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base styles */
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  --background: 0 0% 100%;
+  --foreground: 222.2 47.4% 11.2%;
+
+  --muted: 210 40% 96.1%;
+  --muted-foreground: 215.4 16.3% 46.9%;
+
+  --popover: 0 0% 100%;
+  --popover-foreground: 222.2 47.4% 11.2%;
+
+  --border: 214.3 31.8% 91.4%;
+  --input: 214.3 31.8% 91.4%;
+
+  --card: 0 0% 100%;
+  --card-foreground: 222.2 47.4% 11.2%;
+
+  --primary: 0 72% 50%;  /* BookMyShow Red */
+  --primary-foreground: 210 40% 98%;
+
+  --secondary: 210 40% 96.1%;
+  --secondary-foreground: 222.2 47.4% 11.2%;
+
+  --accent: 0 72% 50%;  /* BookMyShow Red */
+  --accent-foreground: 210 40% 98%;
+
+  --destructive: 0 100% 50%;
+  --destructive-foreground: 210 40% 98%;
+
+  --ring: 215 20.2% 65.1%;
+
+  --radius: 0.5rem;
+}
+
+.dark {
+  --background: 0 0% 0%;  /* Pure black */
+  --foreground: 0 0% 100%;  /* White text */
+
+  --muted: 240 10% 10%;  /* Dark gray with a hint of blue */
+  --muted-foreground: 213 31% 80%;  /* Light gray for muted text */
+
+  --accent: 270 70% 50%;  /* Violet accent */
+  --accent-foreground: 0 0% 100%;  /* White text on accent */
+
+  --popover: 240 20% 5%;  /* Very dark blue-black for popovers */
+  --popover-foreground: 0 0% 100%;  /* White text on popovers */
+
+  --border: 240 15% 15%;  /* Dark blue-gray borders */
+  --input: 240 15% 15%;  /* Dark blue-gray input backgrounds */
+
+  --card: 240 20% 5%;  /* Very dark blue-black for cards */
+  --card-foreground: 0 0% 100%;  /* White text on cards */
+
+  --primary: 270 70% 50%;  /* Violet primary color */
+  --primary-foreground: 0 0% 100%;  /* White text on primary */
+
+  --secondary: 0 80% 50%;  /* Red secondary color */
+  --secondary-foreground: 0 0% 100%;  /* White text on secondary */
+
+  --destructive: 0 80% 50%;  /* Red for destructive actions */
+  --destructive-foreground: 0 0% 100%;  /* White text on destructive */
+
+  --ring: 270 70% 40%;  /* Violet ring with slightly lower brightness */
+
+  --radius: 0.5rem;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
+}
+
+/* Add your additional styles here */

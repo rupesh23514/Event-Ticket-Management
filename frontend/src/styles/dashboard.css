@@ -1,0 +1,33 @@
+@layer components {
+  .dashboard-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8;
+  }
+  
+  .dashboard-card {
+    @apply bg-card rounded-lg shadow-sm border p-6;
+  }
+  
+  .dashboard-heading {
+    @apply text-2xl font-bold text-foreground mb-6;
+  }
+  
+  .dashboard-subheading {
+    @apply text-xl font-semibold text-foreground mb-4;
+  }
+  
+  .dashboard-tabs {
+    @apply flex space-x-1 rounded-lg bg-muted p-1 mb-6;
+  }
+  
+  .dashboard-tab {
+    @apply w-full rounded-md py-2.5 text-sm font-medium leading-5 text-foreground ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2;
+  }
+  
+  .dashboard-tab-active {
+    @apply bg-white shadow text-primary;
+  }
+  
+  .ticket-card {
+    @apply bg-card rounded-lg shadow-sm border overflow-hidden transition hover:shadow-md;
+  }
+}
